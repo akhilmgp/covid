@@ -16,6 +16,9 @@ body {
  font-size:12px;
  font-weight: 600;
 }
+.main-logo a {
+  text-decoration: none;
+}
 
 .logo-b {
 color:brown;

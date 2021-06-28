@@ -11,8 +11,11 @@ function App() {
       <React.Fragment>
             <div className="sidebar">
                 <div className="main-logo">
+                  <a href="/">
                   <div className="logo-t">COVID19</div>
                   <div className="logo-b">DASHBOARD</div>
+                  </a>
+                 
                 </div>
                 <ul className="menu-items">
                     <li><Link to="/"><MdDashboard/></Link></li>
@@ -22,9 +25,9 @@ function App() {
             </div>
       </React.Fragment>
       <Switch>
-        <Route exact path="/"><India/></Route>
+        <Route path="/"><India/></Route>
         {/* <Route  path="/"><Details/></Route> */}
-        <Route path="/worldwide"><Worldwide/></Route>
+        {/* <Route path="/worldwide"><Worldwide/></Route> */}
       </Switch>
       </Router> 
     </div>
