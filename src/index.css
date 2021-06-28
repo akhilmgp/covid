@@ -1,13 +1,103 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: #f5f6f8!important; 
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight:400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.main-logo {
+ display: block;
+ font-family: 'Noto Sans TC', sans-serif;
+ text-align: center;
+ padding-top: 15px;
+ font-size:12px;
+ font-weight: 600;
 }
+
+.logo-b {
+color:brown;
+}
+.App {
+  display:flex;
+}
+.sidebar {
+  background-color: #ffffff;
+  width:80px;
+  height: 100vh;
+  flex:0.1;
+}
+
+.sidebar .menu-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar .menu-items li svg{
+  font-size: 35px;
+  margin: 22px;
+}
+
+
+.container {
+  flex:0.9;
+}
+.content-heading {
+  font-size: 26px;
+  font-weight: 400;
+  color: #818ea3;
+}
+.update-date {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3d5170;
+  letter-spacing: 2px;
+}
+.details-card {
+  box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+  min-height: 100px;
+  background-color: #ffffff;
+  border-radius: .625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Noto Sans TC', sans-serif;
+
+}
+.card-heading {
+  font-size:14px;
+  font-weight: 500;
+  color: #818ea3;
+}
+.card-count {
+  font-size:36px;
+  font-weight: 400;
+  color: #3d5170;
+}
+.table {
+  
+  border-radius: .625rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+}
+.table td, table th{
+  padding: 1rem .5rem!important;
+}
+.table tbody {
+  height:400px;
+  overflow-y: scroll;
+}
+.chart{
+  width:500px;
+}
+.text-skeleton {
+    margin: 20px;
+    border-radius: 10px;
+}
+
